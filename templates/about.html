@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block body %}
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('{{url_for('static', filename = 'img/about.jpg') }}')">
+        <!-- <header class="masthead" style="background-image: url('assets/img/about-bg.jpg')"> -->
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="page-heading">
+                            <h1>About Me</h1>
+                            <span class="subheading">{{params['about_text']}}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <main class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <p>Hi there! My name is Romil Arora, and I am a third-year student at VIT Bhopal. I have always been passionate about coding and love to explore the endless possibilities of technology. At the age of 19, I have already gained expertise in several programming languages such as Python, SQLite3, MySQL, HTML, CSS, and Bootstrap.</p>
+                        <p>Throughout my coding journey, I have worked on various projects, ranging from web development to data analysis. My experience has taught me that coding is not only about writing code, but it's about solving problems in a logical and creative way. I believe that with the right approach, one can make complex coding challenges easy to solve.</p>
+                        <p>Through this blog, I aim to share my coding projects, insights, and experiences, hoping to inspire and help others who are also interested in coding. So, if you're passionate about technology and coding, or just curious to learn more, feel free to follow my journey through code.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+{% endblock %}

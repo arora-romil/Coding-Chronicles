@@ -1,0 +1,18 @@
+{
+    "params":
+    {
+        "local_server": "True",
+        "local_URI": "mysql://root:@localhost/blog",
+        "prod_URI": "mysql://root:@localhost/blog",
+        "blog_name": "Coding Chronicles",
+        "git_url":"https://github.com/arora-romil",
+        "gmail_uname": "rokingromil@gmail.com",
+        "gmail_pass": "spydermail56",
+        "about_text": "Passionate coder, curious learner, and explorer of the endless possibilities of code",
+        "no_of_posts": 3,
+        "login_img":"logo2.svg",
+        "admin_user": "romil_arora",
+        "admin_pass" :"spyderpass",
+        "upload_location": "C:\\Users\\HP\\Desktop\\Flask Python\\static"
+    }
+}
