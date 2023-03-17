@@ -13,6 +13,6 @@
         "login_img":"logo2.svg",
         "admin_user": "romil_arora",
         "admin_pass" :"spyderpass",
-        "upload_location": "C:\\Users\\HP\\Desktop\\Flask Python\\static"
+        "upload_location": "C:\\Users\\HP\\Desktop\\Flask Python\\static\\img"
     }
 }
