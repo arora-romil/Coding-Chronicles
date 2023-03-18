@@ -1,0 +1,12 @@
+build:
+  steps:
+    - name: Install Python 3.9.5
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9.5
+    - name: Install requirements
+      run: pip install -r requirements.txt
+deploy:
+  steps:
+    - name: Deploy with Gunicorn
+      run: gunicorn app:app --workers=4 --bind 0.0.0.0:$PORT --timeout 90
