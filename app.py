@@ -1,5 +1,5 @@
 from flask import Flask , render_template, request,session,redirect,flash
-from flask_mail import Mail
+# from flask_mail import Mail
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 import json
@@ -11,15 +11,15 @@ app.secret_key = 'super-secret-key'
 with open ('config.json', "r") as c:
     params = json.load(c)["params"]
 local_server = True
-app.config['UPLOAD_FOLDER'] = params['upload_location']
-app.config.update(
-    MAIL_SERVER = 'smtp.gmail.com',
-    MAIL_PORT = '465',
-    MAIL_USE_SSL = True,
-    MAIL_USERNAME = params['gmail_uname'],
-    MAIL_PASSWORD = params['gmail_pass']
-)
-mail = Mail(app)
+# app.config['UPLOAD_FOLDER'] = params['upload_location']
+# app.config.update(
+#     MAIL_SERVER = 'smtp.gmail.com',
+#     MAIL_PORT = '465',
+#     MAIL_USE_SSL = True,
+#     MAIL_USERNAME = params['gmail_uname'],
+#     MAIL_PASSWORD = params['gmail_pass']
+# )
+# mail = Mail(app)
 if local_server:
     app.config['SQLALCHEMY_DATABASE_URI'] = params['local_URI']
 else:
