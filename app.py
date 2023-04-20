@@ -22,7 +22,7 @@ local_server = True
 # )
 # mail = Mail(app)
 if local_server:
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////home/romil/Coding-Chronicles/data_posts.sqlite'
+    app.config['SQLALCHEMY_DATABASE_URI'] = params['local_URI']
 else:
     app.config['SQLALCHEMY_DATABASE_URI'] = params['prod_URI']
 
