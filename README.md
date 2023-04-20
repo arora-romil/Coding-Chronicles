@@ -4,7 +4,7 @@ Welcome to Coding Chronicles, a captivating repository where I chronicle my codi
 
 To achieve a visually appealing and responsive design, I have utilized a combination of **HTML**, **CSS**, and **Bootstrap** in my code. Additionally, to power the backend, I have incorporated the use of **Python** with the **Flask** framework. And to manage the data efficiently, I have implemented a **SQLITE** database that stores all the necessary information.
 
-![alt text](https://github.com/arora-romil/Coding-Chronicles/blob/master/Snapshots/HomePage.png?raw=true)
+![alt text](https://github.com/arora-romil/Coding-Chronicles/blob/main/Snapshots/HomePage.png?raw=true)
 
 ## Table of Contents
 
