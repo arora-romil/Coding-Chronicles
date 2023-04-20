@@ -2,7 +2,7 @@
     "params":
     {
         "local_server": "True",
-        "local_URI": "mysql://root:@localhost/blog",
+        "local_URI": "sqlite:////home/romil/Coding-Chronicles/data_posts.sqlite",
         "prod_URI": "mysql://root:@localhost/blog",
         "blog_name": "Coding Chronicles",
         "git_url":"https://github.com/arora-romil",
