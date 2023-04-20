@@ -2,7 +2,7 @@
 
 Welcome to Coding Chronicles, a captivating repository where I chronicle my coding journey and share valuable learnings with fellow enthusiasts.
 
-To achieve a visually appealing and responsive design, I have utilized a combination of **HTML**, **CSS**, and **Bootstrap** in my code. Additionally, to power the backend, I have incorporated the use of **Python** with the **Flask** framework. And to manage the data efficiently, I have implemented a **MySQL** database that stores all the necessary information.
+To achieve a visually appealing and responsive design, I have utilized a combination of **HTML**, **CSS**, and **Bootstrap** in my code. Additionally, to power the backend, I have incorporated the use of **Python** with the **Flask** framework. And to manage the data efficiently, I have implemented a **SQLITE** database that stores all the necessary information.
 
 ![alt text](https://github.com/arora-romil/Coding-Chronicles/blob/master/Snapshots/HomePage.png?raw=true)
 
@@ -21,8 +21,13 @@ To get started with this repository, you'll need to first clone the repository t
 
 Once you have cloned the repository, you can then navigate to the directory and install any dependencies using the following command:
 
--> npm install
+-> pip install -r requirements.txt
 
+After installing requirements, you have to put the location of the database **data_posts.sqlite** in local_URI of config.json file.
+
+Now you are good to go, you can start it using the following command: 
+
+-> python app.py 
 
 ## Usage
 
